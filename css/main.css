@@ -68,15 +68,38 @@ body {
 /* hero section */
 
 .hero {
-    background: gold;
+    position: relative;
+}
+
+.image {
+    height: 650px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#img {
+    background-image: url('../img/banner.jpg');
+}
+
+.text-img {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
 }
 
 .columns-section {
-    background: dodgerblue;
+
 }
 
 .columns-heading {
 margin-bottom: 20px;
+}
+
+.columns-heading h1 {
+    font-size: 40px;
+    color: black;
 }
 
 .columns .col {
