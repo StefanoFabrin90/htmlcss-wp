@@ -2,4 +2,94 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-weight: 300px;
+    color: #989898;
+}
+
+/* utility */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearifx::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.debug-box {
+    height: 70px;
+    background: rgba(255,255,255, .1);
+    border: 1px solid black;
+}
+
+/* header */
+
+.brand {
+    display: inline-block;
+}
+
+.brand img {
+    width: 165px;
+}
+
+.main-menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 12px;
+}
+
+.main-menu li a {
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-menu li a:hover {
+    color: red;
+}
+
+
+/* hero section */
+
+.hero {
+    background: gold;
+}
+
+.columns-section {
+    background: dodgerblue;
+}
+
+.columns-heading {
+margin-bottom: 20px;
+}
+
+.columns .col {
+    float: left;
+    width: 20%;
+}
+
+.columns .col:nth-child(2) {
+    width: 60%;
+} 
+
+/* footer */
+
+footer {
+    background: rebeccapurple;
 }
